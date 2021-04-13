@@ -1,7 +1,12 @@
 <!-- Collect the nav links, forms, and other content for toggling -->
-<div class="collapse navbar-collapse navbar-right" id="navbar-collapsible-content" role="navigation">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<div class="collapse navbar-collapse navbar-right" id="navbar-collapsible-content">
     <ul class="nav navbar-nav">
         <% if user_signed_in? %>
+            
             <li class="dropdown pc-menu">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                 <span id="user-name"><%= current_user.name %></span>
