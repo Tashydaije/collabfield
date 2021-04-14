@@ -232,8 +232,8 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap (>= 1.4.4)
-  bootstrap-sass (~> 3.3.6)
-  bootstrap_form (>= 3.2)
+  bootstrap-sass
+  bootstrap_form
   byebug
   capybara (>= 3.26)
   devise
